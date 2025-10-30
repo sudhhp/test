@@ -3,7 +3,7 @@ import Tab1 from "./Tab1";
 import "../index.css";
 import { IoHome } from "react-icons/io5";
 import { FaHome, FaUser, FaCog } from "react-icons/fa";
-const Homepage = () => {
+const HomePage = () => {
   const [activeTab, setActiveTab] = useState(1);
   const [isOpen, setIsOpen] = useState(false);
   const tabs = [
@@ -101,4 +101,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default HomePage;
